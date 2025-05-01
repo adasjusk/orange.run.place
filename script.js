@@ -1,4 +1,5 @@
 // script.js
+
 ;(function() {
   // ——————————————
   // 0) DOMAIN-CHANGE WARNING
