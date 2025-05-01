@@ -15,7 +15,7 @@
       banner.className = 'domain-warning';
       banner.innerHTML = `
         ⚠️ This site has moved to
-        <a href="oranges.lt" target="_self">https://oranges.lt</a>.
+        <a href="https://oranges.lt" target="_self">oranges.lt</a>.
         Please update our server ip in your minecraft.
       `;
       document.body.prepend(banner);
