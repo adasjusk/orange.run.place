@@ -36,7 +36,7 @@
   // 2) RANDOM BACKGROUND
   // ——————————————
   window.addEventListener('load', () => {
-    const images = ['image.png'];
+    const images = ['image.png', 'image.png'];
     const randomImage = images[Math.floor(Math.random() * images.length)];
     document.body.style.backgroundImage = `url('${randomImage}')`;
   });
