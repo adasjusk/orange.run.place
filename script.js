@@ -15,8 +15,8 @@
       banner.className = 'domain-warning';
       banner.innerHTML = `
         ⚠️ This site has moved to
-        <a href="https://oranges.lt" target="_self">https://oranges.lt</a>.
-        Please update your bookmarks.
+        <a href="oranges.lt" target="_self">https://oranges.lt</a>.
+        Please update our server ip in your minecraft.
       `;
       document.body.prepend(banner);
     });
@@ -36,7 +36,7 @@
   // 2) RANDOM BACKGROUND
   // ——————————————
   window.addEventListener('load', () => {
-    const images = ['image.png', 'image2.png'];
+    const images = ['image.png'];
     const randomImage = images[Math.floor(Math.random() * images.length)];
     document.body.style.backgroundImage = `url('${randomImage}')`;
   });
