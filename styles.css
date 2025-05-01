@@ -114,3 +114,22 @@ button#copy-ip:hover {
     font-family: Arial, sans-serif;
     background-color: transparent;
 }
+
+/* WARNING BANNER */
+.domain-warning {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffeb3b;
+  color: #000;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 0.9em;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+body.domain-warning-active {
+  /* push the page down so header isn't hidden underneath */
+  padding-top: 36px;
+}
